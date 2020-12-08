@@ -19,7 +19,7 @@ RUN wget --no-check-certificate \
       https://install.service-now.com/glide/distribution/builds/package/mid/2015/05/19/mid.2015-05-19-1759.linux.x86-64.zip \
       -O /tmp/mid.zip && \
     unzip -d /opt /tmp/mid.zip && \
-    mv /opt/agent/config.xml /opt/ && \
+#    mv /opt/agent/config.xml /opt/ && \
     chmod 755 /opt/init && \
     rm -rf /tmp/*
 
